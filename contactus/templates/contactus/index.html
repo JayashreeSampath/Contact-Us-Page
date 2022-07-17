@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'contactus/style.css' %}">
+    </head>
+    <body>
+        <header>
+            <!--  -->
+            <!-- <nav> -->
+                <div class="section0">
+                    <ul id="logoname">
+                        <img class="image" src="{% static 'contactus/images/logo.jpg' %}" alt="">
+                        <li class="company">Ecommerce <br>website</li>
+                    </ul>
+                    
+                    <ul id="navbar">
+                        <li class="navele">Home</li>
+                        <li class="navele">Purchases</li>
+                        <li class="navele"><a href="{% url 'index' %}">Contact Us</a></li>
+                        <!-- <li class="navele"><a href="http://127.0.0.1:8000/contactus/">Contact Us</a></li> -->
+                    </ul>
+                </div>
+            <!-- </nav> -->
+        </header>
+        <div class="section1">
+            <div class="section2">
+                <h1 class="header"><b>Contact Us</b></h1>
+            <p class="text">Feel free to reach out to us for any queries <br>or assistance from our professionals</p>
+            </div>
+            <div class="form">
+                <form action="add/" method="post">
+                {% csrf_token %}
+                <label class="namelabel" for="name">Name:</label>
+                <input class="detail" id="name" name="name" required>
+
+                <br><br>
+
+                <label class="maillabel" for="mail">Mail:</label>
+                <input class="detail" id="mail" name="mail" type="email" required>
+
+                <br><br>
+
+                <label class="sublabel" for="subject">Subject:</label>
+                <input class="detail" id="subject" name="sub">
+
+                <br><br>
+
+                <!-- <label class="namelabel" for="msg">Message:</label>
+                <input class="detail" id="msg" name="msg" required> -->
+                <div class="msgdiv">
+                    <label class="msglabel" for="msg">Message:</label><br>
+                    <textarea id="msg" name="msg" rows="6" required ></textarea>
+                </div>
+                <!-- <input type="text" id="msg" name="msg" required> -->
+
+                <br><br>
+
+                <input class="detail" id="submit" type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+

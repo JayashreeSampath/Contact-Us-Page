@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    background: url('images/bg_pic.jpg') no-repeat;
+    /* margin-top: 100px; */
+    font-family: "Open Sans", sans-serif;
+}
+.section0{
+    margin-top: 20px;
+}
+#logoname{
+    display:flex;
+    justify-content: left;
+    float:left;
+}
+.image{
+    width:65px;
+    height:65px;
+    border-radius: 50px;
+    float:left;
+    margin-top:0px;
+    display:flex;
+}
+.company{
+    list-style: none;
+    padding:10px;
+    margin:10px;
+    margin-top:0px;
+    font-size: 20px;
+}
+#navbar{
+    display: flex;
+    /* float:right; */
+    /* align-items:right; */
+    justify-content: right;
+    margin-right:55px;
+    margin-top:10px;
+    float:right;
+    
+  }
+  .navele{
+    list-style: none;
+    text-align: right;
+    padding:5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    
+  }
+  .navele a{
+    text-decoration: none;
+    color: black;
+  }
+  .navele:hover{
+    background-color: white;
+    /* border:black solid ; */
+  }
+.section1{
+    margin-left: 10px;
+    /* margin-top:50px; */
+}
+.section2{
+    float:left;
+    position:relative;
+    /* margin-top:180px; */
+    margin-left:-30px;
+    padding-top: 100 px;
+    margin-top:30px;
+}
+ .header{
+    text-align: left;
+    justify-content: left;
+    margin-left: 0px;
+    margin-top: 200px;
+    padding-bottom:30px;
+    font-size:40px ;
+}
+.text{
+    font-size: 25px;
+    /* padding-left:50px; */
+    margin-left:0px;
+}
+.form{
+    text-align: right; 
+    padding-top:100px; 
+    margin-right: 220px;
+     margin-top:20px;
+    float:right;
+}
+.detail {
+    border-radius: 10px;
+    width:270px;
+    height:30px;
+    font-size: 20px;
+    border:black;
+}
+#mail{
+    padding-top: 5px;
+    margin-left:20px;
+}
+#name{
+    padding-top: 5px;
+    margin-left:10px;
+}
+#subject{
+    padding-top: 5px; 
+     margin-left:5px; 
+
+}
+#msg{
+    padding-top: 5px;
+    margin-left:10px;
+    margin-right:1px;
+    margin-top:-25px;
+    width:270px;
+    border:black;
+    border-radius: 10px;
+    font-size:20px;
+    height:120px;
+} 
+.namelabel{
+    font:30px;
+    color: black;
+}
+.sublabel{
+    font:30px;
+    color: black;
+    margin-right: 5px;
+}
+.maillabel{
+    font:30px;
+    color: black; 
+    margin-right:-10px;  
+}
+.msglabel{
+     margin-left:50px;
+    font:30px;
+    color: black;
+    margin-top: 50px ;  
+    padding-top: 50px; 
+    margin-right: 285px;
+    /* padding-left:200px; */
+}
+#submit{
+    width:100px;
+    height:50px;
+    margin-right: 85px;
+    /* padding:20px 20px 20px 20px; */
+}
+#submit:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+.msgdiv{
+    padding-top:18px;
+}
+
